@@ -6,7 +6,7 @@ Prerender plugin for Redis caching, to be used with the prerender node applicati
 How it works
 ------------
 
-This plugin stores pages returned through prerender in a redis instance. Currently, it caches the pages for 1 day then expires them. This can be overridden by specifying the env variable "process.env.PAGE_EXPIRY" in seconds.
+This plugin stores pages returned through prerender in a redis instance. Currently, it caches the pages for 1 day then expires them. This can be overridden by specifying the env variable "process.env.PAGE_TTL" in seconds.
 
 How to use
 ----------
