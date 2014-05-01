@@ -1,0 +1,27 @@
+{
+  "name": "prerender-redis-cache",
+  "version": "0.0.1",
+  "description": "Prerender plugin for Redis caching",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jonathanbennett/prerender-redis-cache.git"
+  },
+  "keywords": [
+    "prerender",
+    "redis",
+    "cache"
+  ],
+  "author": "Jonathan Bennett",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jonathanbennett/prerender-redis-cache/issues"
+  },
+  "homepage": "https://github.com/jonathanbennett/prerender-redis-cache",
+  "dependencies": {
+    "redis": "~0.10.1"
+  }
+}
