@@ -22,7 +22,7 @@ Then in the server.js that initializes the prerender:
 Configuration
 -------------
 
-By default it will connect to your Redis instance running on localhost and the default redis port with no authentication. You can overwrite this by setting the `REDISTOGO_URL`, `REDISCLOUD_URL`, `REDISGREEN_URL` or `REDIS_URL` (in the format redis://user:password@host:port). This currently covers all heroku add-ons for Redis to support quick start.
+By default it will connect to your Redis instance running on localhost and the default redis port with no authentication, and the default database number (normally 0). You can overwrite this by setting the `REDISTOGO_URL`, `REDISCLOUD_URL`, `REDISGREEN_URL` or `REDIS_URL` (in the format redis://user:password@host:port/databaseNumber). This currently covers all heroku add-ons for Redis to support quick start.
 
 Todo
 ----
