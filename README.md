@@ -28,8 +28,11 @@ Acknowledgements
 ----------------
 
 Thanks to the following for making branches with changes which were merged with the 0.2.0 release. 
+
+Fantastic Prerender team.
 @nelsonkopliku
 @eddietio
+@irnc
 
 Todo
 ----
