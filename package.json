@@ -1,6 +1,6 @@
 {
   "name": "prerender-redis-cache",
-  "version": "0.3.0",
+  "version": "0.2.2",
   "description": "Prerender plugin for Redis caching",
   "main": "index.js",
   "scripts": {
